@@ -1,9 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
+import ButtonAlert from '~/component/components'
 
 function App() {
   return (
     <div className="App">
+      <ButtonAlert/>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
